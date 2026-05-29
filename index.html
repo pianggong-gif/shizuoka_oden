@@ -109,10 +109,16 @@ footer a { color: var(--amber); }
 
 <header>
   <div class="header-top">
+    <div style="display:flex;align-items:center;gap:8px;flex:none">
+      <img src="https://raw.githubusercontent.com/pianggong-gif/shizuoka_oden/main/public/Mcc06_Ogawa_logo.png" alt="おがわ" style="height:36px;object-fit:contain" onerror="this.style.display='none'">
+      <img src="https://raw.githubusercontent.com/pianggong-gif/shizuoka_oden/main/public/kanshikenlogo.PNG" alt="漢使研" style="width:32px;height:32px;border-radius:50%;object-fit:cover" onerror="this.style.display='none'">
+    </div>
     <div class="header-title">
       静岡おでん おがわ
       <span>Shizuoka Oden Ogawa — Multilingual Guide</span>
     </div>
+    <div style="font-size:26px">🍢</div>
+  </div>
     <div style="font-size:28px">🍢</div>
   </div>
   <div class="lang-bar">
@@ -146,6 +152,7 @@ footer a { color: var(--amber); }
     <div class="hero-sub" id="hero-sub">昭和23年（1948年）創業</div>
     <div class="hero-tr" id="hero-tr"></div>
   </div>
+  <img src="https://raw.githubusercontent.com/pianggong-gif/shizuoka_oden/main/public/Mcc06_Ogawa_Oden.png.jpg" alt="静岡おでん おがわ" style="width:100%;border-radius:10px;margin-top:12px;display:block;max-height:200px;object-fit:cover" onerror="this.style.display='none'">
   <div id="home-intro"></div>
 </div>
 
@@ -289,6 +296,7 @@ footer a { color: var(--amber); }
     <p>静岡おでん「おがわ」への外国人来店者が増加する一方、多言語対応が追いつかず「注文方法がわからない」「食文化の背景が伝わらない」という課題がありました。</p>
     <p>漢使研は2024〜2025年にフィールドワーク・聞き書き（2回実施）、高校生・大学生240名へのアンケート調査（静岡大学・静岡県立富岳館高等学校・静岡大学東部サテライト）を実施。日本語基準テキストを整備し、8言語への翻訳・表現調整を行いました。</p>
     <p>2025年11月1〜2日「方言・無形文化遺産 国際シンポジウム」でも静岡おでんを紹介・試食を実施しました。</p>
+    <img src="https://raw.githubusercontent.com/pianggong-gif/shizuoka_oden/main/public/Mcc06_Ogawa_FW1_member.png.jpg" alt="フィールドワーク集合写真 FW1" style="width:100%;border-radius:10px;margin-top:12px;display:block" onerror="this.style.display='none'">
     <p style="font-size:12px;color:rgba(255,255,255,0.5)">令和7年度静岡大学地域連携応援プロジェクト成果報告書 第11号：3-7</p>
   </div>
 
@@ -333,7 +341,7 @@ let currentLang = 'jp';
 
 
 
-const MENU_IMGS={"en": "https://raw.githubusercontent.com/pianggong-gif/shizuoka_oden/main/public/Mcc06_Ogawa_menu_EN.PNG", "zh_tw": "https://raw.githubusercontent.com/pianggong-gif/shizuoka_oden/main/public/Mcc06_Ogawa_menu_CN_F.png", "zh_cn": "https://raw.githubusercontent.com/pianggong-gif/shizuoka_oden/main/public/Mcc06_Ogawa_menu_CN_j.PNG", "vi": "https://raw.githubusercontent.com/pianggong-gif/shizuoka_oden/main/public/Mcc06_Ogawa_menu_VI.PNG", "th": "https://raw.githubusercontent.com/pianggong-gif/shizuoka_oden/main/public/Mcc06_Ogawa_menu_TAI.PNG", "my": "https://raw.githubusercontent.com/pianggong-gif/shizuoka_oden/main/public/Mcc06_Ogawa_menu_MY.png", "id": "https://raw.githubusercontent.com/pianggong-gif/shizuoka_oden/main/public/Mcc06_Ogawa_menu_ID.PNG"};
+const MENU_IMGS={"jp": "", "en": "https://raw.githubusercontent.com/pianggong-gif/shizuoka_oden/main/public/Mcc06_Ogawa_menu_EN_v2.PNG", "zh_tw": "https://raw.githubusercontent.com/pianggong-gif/shizuoka_oden/main/public/Mcc06_Ogawa_menu_ZH_HK_v2.PNG", "zh_cn": "https://raw.githubusercontent.com/pianggong-gif/shizuoka_oden/main/public/Mcc06_Ogawa_menu_ZH_CN_v2.PNG", "vi": "https://raw.githubusercontent.com/pianggong-gif/shizuoka_oden/main/public/Mcc06_Ogawa_menu_VI_v2.PNG", "th": "https://raw.githubusercontent.com/pianggong-gif/shizuoka_oden/main/public/Mcc06_Ogawa_menu_TA_v2.PNG", "my": "https://raw.githubusercontent.com/pianggong-gif/shizuoka_oden/main/public/Mcc06_Ogawa_menu_MY.png", "id": "https://raw.githubusercontent.com/pianggong-gif/shizuoka_oden/main/public/Mcc06_Ogawa_menu_ID_v2.PNG", "ko": ""};
 const LANG_TO_KEY = {
   'jp':'jp','英語':'en','中国語（繁）':'zh_tw','中国語（簡）':'zh_cn',
   'ベトナム語':'vi','タイ語':'th','ミャンマー語':'my',
